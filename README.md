@@ -24,3 +24,4 @@ No projeto iOS, em AppDelegate.cs, adicione a seguinte linha em seu método Fini
 ```csharp
 App.FatorDeEscalaDeTela = UIScreen.MainScreen.Scale;
 ```
+

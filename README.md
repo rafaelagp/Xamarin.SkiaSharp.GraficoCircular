@@ -10,7 +10,7 @@ Adicionar somente nos projetos de plataforma, o nuget
 * SkiaSharp.Views
 
 ### Fator de Conversão
-SkiaSharp utiliza valores em pixels e Xamarin.Forms utiliza Device Independent Points, então precisamos criar uma propriedade que receba o fator de conversão da plataforma.
+SkiaSharp utiliza valores em pixels e Xamarin.Forms utiliza Device Independent Points, então é preciso criar uma propriedade que receba o fator de conversão da plataforma.
 
 No projeto PCL, em App.xaml.cs, adicione a seguinte propriedade:
 ```csharp
@@ -24,4 +24,3 @@ No projeto iOS, em AppDelegate.cs, adicione a seguinte linha em seu método Fini
 ```csharp
 App.FatorDeEscalaDeTela = UIScreen.MainScreen.Scale;
 ```
-
